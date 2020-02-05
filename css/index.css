@@ -167,6 +167,8 @@ b {
   font-size: 1em;
   font-weight: 400;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 p b,
 b b {
@@ -190,7 +192,7 @@ textarea {
   font-family: Inter, Helvetica, sans-serif;
   color: #000;
   font-size: 1em;
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(255, 255, 255, 0.7);
   border: 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.14);
   outline: none;
@@ -315,9 +317,14 @@ textarea {
   padding-bottom: 10px;
   font-weight: 600;
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .nav .nav-wrap .menu {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 550px) {
+  .nav .nav-wrap .menu .hd-mbl {
+    display: none;
   }
 }
 .contentWrapper {
@@ -520,6 +527,9 @@ section#skills {
 section#skills .airy-grid {
   margin-top: 1em;
 }
+section#skills p {
+  text-align: center;
+}
 section#work {
   padding-top: 3.5em;
 }
@@ -583,6 +593,13 @@ section#contact form {
 section#contact a.primary.solid-btn {
   max-width: 240px;
   margin: 0 auto;
+  background: transparent;
+}
+section#contact a.primary.solid-btn:after {
+  background: transparent!important;
+}
+section#contact a.primary.solid-btn span {
+  color: #FFF !important;
 }
 section#contact .secondary-contact-options {
   padding-top: 2em;
