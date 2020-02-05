@@ -8,12 +8,129 @@
 
   <link rel="stylesheet" href="css/index.css">
 
+  <link rel="stylesheet" href="css/inter.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+	<div class="page-wrap">
+		<nav class="nav">
+			<div class="cw-md nav-wrap">
+				<a>
+					<img src="static/assets/media/logo.png">
+				</a>
+				<ul class="menu">
+					<li class="hd-mbl"><a href="#intro">Intro</a></li>
+					<li class="hd-mbl"><a href="#skills">Skills</a></li>
+					<li class="hd-mbl"><a href="#work">Work History</a></li>
+					<li><a href="#contact" class="button primary solid-btn"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<section id="intro">
+			<div style="background-image: url('static/assets/media/me.jpg');" class="blurred-media-bg"></div>
+			<div class="cw-md">
+				<img class="headshot" src="static/assets/media/me.jpg">
+				<h1>Jake Lazarus</h1>
+				<h3>Solutions Architect</h3>
+				<p>I am a New York City based solutions architect who helps entrepreneurs solve their strategic, organizational, design, and technical problems.</p>
+				<a class="primary button"><span>Let's Get to Work</span></a>
+			</div>
+		</section>
+		<section id="skills" class="cw-sm">
+			<h3>Skills</h3>
+			<p>Here are some of the things I'm great at:</p>
+			<div class="airy-grid">
+				<div>
+					<b>Data Vis</b>
+				</div>
+				<div>
+					<b>Product Mgmt</b>
+				</div>
+				<div>
+					<b>Strategy</b>
+				</div>
+				<div>
+					<b>Web Dev</b>
+				</div>
+				<div>
+					<b>Product Design</b>
+				</div>
+				<div>
+					<b>Branding</b>
+				</div>
+				<div>
+					<b>Leadership</b>
+				</div>
+				<div>
+					<b>Marketing</b>
+				</div>
+				<div>
+					<b>Biz Dev</b>
+				</div>
+			</div>
+		</section>
+		<section id="work" class="cw-md">
+			<h3>Work</h3>
+			<p>I've pursued a path spanning neuromarketing analysis, software design, and product operations. Below you'll find a few of the places I've worked for so far.</p>
+			<ul>
+				<li>
+					<div class="work-info">
+						<b>Founder & CEO</b>
+						<p>@OpenMessage</p>
+					</div>
+					<div class="work-details">
+						<p>2 Years</p>
+						<p>New York, NY</p>
+					</div>
+				</li>
+				<li>
+					<div class="work-info">
+						<b>Product Designer</b>
+						<p>@eMagid</p>
+					</div>
+					<div class="work-details">
+						<p>2 Years</p>
+						<p>New York, NY</p>
+					</div>
+				</li>
+				<li>
+					<div class="work-info">
+						<b>Analyst</b>
+						<p>@InnerscopeResearch</p>
+					</div>
+					<div class="work-details">
+						<p>1 Year</p>
+						<p>New York, NY</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<div class="cw-sm">
+				<h3>Contact</h3>
+				<p>For anyone who wants me on their team, don't hesitate to reach out.</p>
+				<form>
+					<input type="text" placeholder="Enter your Email or Phone Number">
+					<textarea type="text" placeholder="Hi Jake, I'm reaching out because..."></textarea>
+					<a class="button primary solid-btn"><span>Send</span></a>
+				</form>
+<!-- 				<div class="secondary-contact-options">
+					<a href="mailto:jakelaz@jakelaz.com" class="button secondary primary">Email</a>
+					<a href="mailto:jakelaz@jakelaz.com" class="button secondary primary">Call</a>
+				</div> -->
+			</div>
+		</section>
+		<footer>
+			<div class="cw-sm">
+				<b>Copyright ©2020 LazTech, LLC</b>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
